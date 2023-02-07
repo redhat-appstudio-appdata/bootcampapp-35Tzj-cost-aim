@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bootcampapp-mg3f
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:utherp0-tenant-bootcampapp-mg3f
+      - image: quay.io/redhat-appstudio/user-workload@sha256:d09a73ef2f03cd9f6acad0b4ea78828d492e22fcdaaf0002c2a6b8a049bf9d88
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
